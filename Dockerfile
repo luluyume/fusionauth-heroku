@@ -1,3 +1,3 @@
 FROM fusionauth/fusionauth-app:latest
 
-CMD /usr/local/fusionauth/fusionauth-app/bin/start.sh
+CMD export FUSIONAUTH_APP_HTTP_PORT=$PORT && /usr/local/fusionauth/fusionauth-app/bin/start.sh
