@@ -15,7 +15,7 @@
   ],
   "success_url": "/",
   "website": "https://fusionauth.io",
-  "repository": "https://github.com/pankyka/fusionauth-heroku",
+  "repository": "https://github.com/luluyume/fusionauth-heroku",
   "stack": "container",
   "env": {
     "ES_JAVA_OPTS": {
@@ -35,10 +35,5 @@
     "web": {
       "quantity": 1
     }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ]
+  }
 }
