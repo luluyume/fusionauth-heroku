@@ -1,6 +1,3 @@
 FROM fusionauth/fusionauth-app:latest
 
-COPY ./start.sh /usr/local
-
-CMD chmod a+x /usr/local/start.sh && \
-    /usr/local/start.sh
+CMD /usr/local/fusionauth/fusionauth-app/bin/start.sh
